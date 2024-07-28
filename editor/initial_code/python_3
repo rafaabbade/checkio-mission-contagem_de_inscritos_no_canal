@@ -1,1 +1,13 @@
-{{CODIGO INICIAL}}
+def contagem_inscritos(inscritos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(contagem_inscritos([10000, 20000, 30000, 50000]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert contagem_inscritos([10000, 20000, 30000, 50000]) == 4
+assert contagem_inscritos([25000, 25000, 52500]) == 3
+assert contagem_inscritos([20000, 30000]) == -1
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
